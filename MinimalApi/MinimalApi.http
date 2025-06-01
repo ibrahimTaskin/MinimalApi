@@ -1,0 +1,33 @@
+﻿@MinimalApi_HostAddress = https://localhost:7208
+
+POST {{MinimalApi_HostAddress}}/todoitems
+Content-Type: application/json
+
+{
+  "name":"go shopping",
+  "isComplete":false
+}
+
+###
+
+GET {{MinimalApi_HostAddress}}/todoitems
+
+###
+
+GET {{MinimalApi_HostAddress}}/todoitems/complete
+
+###
+
+GET {{MinimalApi_HostAddress}}/todoitems/2
+
+###
+
+PUT {{MinimalApi_HostAddress}}/todoitems/1
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "feed fish",
+  "isComplete": false
+}
+###
