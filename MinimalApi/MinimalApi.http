@@ -4,7 +4,7 @@ POST {{MinimalApi_HostAddress}}/todoitems
 Content-Type: application/json
 
 {
-  "name":"feed cat",
+  "name":"feed cat2",
   "isComplete":true
 }
 
@@ -27,7 +27,7 @@ Content-Type: application/json
 
 {
   "id": 1,
-  "name": "feed fish",
-  "isComplete": false
+  "name": "feed fish2",
+  "isComplete": true
 }
 ###
